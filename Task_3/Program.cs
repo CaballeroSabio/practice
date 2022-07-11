@@ -1,4 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// Напишите программу, которая будет выдавать название дня недели по заданному номеру.
+
 Console.Clear();
 Console.Write("Введите номер дня недели: ");
 int num1 = Convert.ToInt32(Console.ReadLine());
@@ -13,3 +14,4 @@ else
 {
     Console.Write("Первое число не является квадратом второго");
 }
+Console.WriteLine();
