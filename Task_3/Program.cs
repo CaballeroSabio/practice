@@ -32,5 +32,8 @@ else if (dayWeek == 7)
 {
     Console.Write("Sunday");
 }
-
+else
+{
+    Console.WriteLine("Ошибка");
+}
 Console.WriteLine();
