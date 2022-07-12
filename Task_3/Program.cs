@@ -2,16 +2,35 @@
 
 Console.Clear();
 Console.Write("Введите номер дня недели: ");
-int num1 = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите первое число: ");
-int num2 = Convert.ToInt32(Console.ReadLine());
-int res = num2*num2;
-if (num1==res)
+int dayWeek = Convert.ToInt32(Console.ReadLine());
+
+if (dayWeek == 1)
 {
-    Console.Write("Первое число не является квадратом второго");
+    Console.Write("Monday");
 }
-else
+else if (dayWeek == 2)
 {
-    Console.Write("Первое число не является квадратом второго");
+    Console.Write("Tuesday");
 }
+else if (dayWeek == 3)
+{
+    Console.Write("Wednesday");
+}
+else if (dayWeek == 4)
+{
+    Console.Write("Thursday");
+}
+else if (dayWeek == 5)
+{
+    Console.Write("Friday");
+}
+else if (dayWeek == 6)
+{
+    Console.Write("Saturday");
+}
+else if (dayWeek == 7)
+{
+    Console.Write("Sunday");
+}
+
 Console.WriteLine();
